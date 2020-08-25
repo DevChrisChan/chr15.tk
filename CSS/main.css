@@ -42,4 +42,7 @@ h1, h3 {
   position:absolute;
     width:100%;
     bottom:0px;
+  padding: 20px;
+  min-height: 100%;
+  margin: 0 auto -50px;
 }
