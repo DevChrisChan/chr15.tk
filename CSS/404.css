@@ -13,8 +13,8 @@ a {
   background-color: #f3f3f3;
 }
 
-h1, h3 {
-  color: #000000;
+h1{
+  text-allign: center;
 }
 
 @media (prefers-color-scheme: dark) {
