@@ -17,9 +17,7 @@ h1{
   text-allign: center;
 }
 
-h6 {
-  color: #f3f3f3
-}
+
 
 @media (prefers-color-scheme: dark) {
   a {
@@ -31,9 +29,6 @@ h6 {
     color: #FFFFFF
   }
   
-  h6 {
-    color: #FFFFFF
-  }
 }
 
 @media (prefers-color-scheme: dark) {
