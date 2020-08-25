@@ -17,6 +17,10 @@ h1{
   text-allign: center;
 }
 
+h6 {
+  color: #f3f3f3
+}
+
 @media (prefers-color-scheme: dark) {
   a {
     background-color: #f3f3f3;
@@ -24,6 +28,10 @@ h1{
   }
   
   h1, h3 {
+    color: #FFFFFF
+  }
+  
+  h6 {
     color: #FFFFFF
   }
 }
