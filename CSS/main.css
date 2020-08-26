@@ -20,7 +20,7 @@ a {
   background-color: #f3f3f3;
 }
 
-shortcuts {
+p.shortcuts {
   display: inline-block;
   margin-bottom: 10px;
   padding: 300px 450px;
