@@ -16,6 +16,10 @@ a {
   background-color: #f3f3f3;
 }
 
+.space {
+  margin: 35px 0px;
+}
+
 @media (prefers-color-scheme: dark) {
   a {
     background-color: #f3f3f3;
