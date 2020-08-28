@@ -78,26 +78,10 @@
                 dictionary = await r.json();
                 document.getElementById("Changelog").innerHTML = `Changelog: ${dictionary.Notes}`;
             }());
-    
-    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
-  </body>
-</html>
-
-              <p class="LatestSU" id="LatestSU">Checking the latest version...</p>
-
+    </script>
 
                   
-        <script>
-            const url = 'https://routinehub.co/api/v1/shortcuts/2692/versions/latest';
-            let dictionary;
-            (async function () {
-                let r = await fetch(url);
-                dictionary = await r.json();
-                document.getElementById("LatestSU").innerHTML = `Latest Swing Updater Version: <span style="font-weight: normal;">${dictionary.Version}</span>`;
-            }());
-        </script>
-        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-        <script src="assets/sidebar.js"></script>
+   <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+
     </body>
 </html>
