@@ -3,7 +3,11 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #f3f3f3;
-  color: #000000
+  color: #000000;
+  position:absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  margin: auto;
+  width: 50vw; height: 50vh;
 }
 
 h1 {
