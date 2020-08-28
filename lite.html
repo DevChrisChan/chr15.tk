@@ -44,8 +44,8 @@
     <h3>Thanks for Downloading iUtilities Lite!</h3>
     <br />
     
-    <h3 id="Version">Fetching Latest Version</h3>
-    <h3 id="Changelog">Fetching Changelog</h3>
+    <h3 id="Version">Fetching Latest Version...</h3>
+    <h3 id="Notes">Fetching Changelog...</h3>
 
     <a
       style="background: #6a8cbe; text-decoration:none;"
@@ -76,7 +76,7 @@
             (async function () {
                 let r = await fetch(url);
                 dictionary = await r.json();
-                document.getElementById("Changelog").innerHTML = `Changelog: ${dictionary.Notes}`;
+                document.getElementById("Notes").innerHTML = `Changelog: ${dictionary.Notes}`;
             }());
     </script>
 
