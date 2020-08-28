@@ -43,6 +43,9 @@
     <h1>iUtilities Lite</h1>
     <h3>Thanks for Downloading iUtilities Lite!</h3>
     <br />
+    
+    <h3 id="Version">Latest Version: loading...</h3>
+    <h3 id="Changelog">Changelog: loading...</h3>
 
     <a
       style="background: #6a8cbe; text-decoration:none;"
@@ -57,7 +60,44 @@
     <br />
     <p class="space"> </p>
     
-   
+    <script>
+      const url = 'https://routinehub.co/api/v1/shortcuts/6347/versions/latest';
+            let dictionary;
+            (async function () {
+                let r = await fetch(url);
+                dictionary = await r.json();
+                document.getElementById("Version").innerHTML = `Latest Version: ${dictionary.Version}`;
+            }());
+    </script>
+    
+    <script>
+            const url = 'https://routinehub.co/api/v1/shortcuts/6347/versions/latest';
+            let dictionary;
+            (async function () {
+                let r = await fetch(url);
+                dictionary = await r.json();
+                document.getElementById("Changelog").innerHTML = `Changelog: ${dictionary.Notes}`;
+            }());
+    
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
   </body>
+</html>
+
+              <p class="LatestSU" id="LatestSU">Checking the latest version...</p>
+
+
+                  
+        <script>
+            const url = 'https://routinehub.co/api/v1/shortcuts/2692/versions/latest';
+            let dictionary;
+            (async function () {
+                let r = await fetch(url);
+                dictionary = await r.json();
+                document.getElementById("LatestSU").innerHTML = `Latest Swing Updater Version: <span style="font-weight: normal;">${dictionary.Version}</span>`;
+            }());
+        </script>
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="assets/sidebar.js"></script>
+    </body>
 </html>
