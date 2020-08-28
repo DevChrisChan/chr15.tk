@@ -45,7 +45,6 @@
     <br />
     
     <h3 id="Version">Fetching Latest Version...</h3>
-    <h3 id="Notes">Fetching Changelog...</h3>
 
     <a
       style="background: #6a8cbe; text-decoration:none;"
@@ -55,7 +54,7 @@
     <a
       style="background: #0eb0f6; text-decoration:none;"
       href="https://routinehub.co/shortcut/6348"
-      ><ion-icon name="download-outline"></ion-icon> iOS 14 Download</a
+      ><ion-icon name="download-outline"></ion-icon> Download <p id="Version">fetching latest version...</p> (iOS 14)</a
     >
     <br />
     <p class="space"> </p>
@@ -70,15 +69,6 @@
             }());
     </script>
     
-    <script>
-            const url = 'https://routinehub.co/api/v1/shortcuts/6347/versions/latest';
-            let dictionary;
-            (async function () {
-                let r = await fetch(url);
-                dictionary = await r.json();
-                document.getElementById("Notes").innerHTML = `Changelog: ${dictionary.Notes}`;
-            }());
-    </script>
 
                   
    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
