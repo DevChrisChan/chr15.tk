@@ -2,4 +2,4 @@
 
 DevChrisChan/chr15.tk is a Repo for my Site and other things
 
-Taking over https://github.com/DevChrisChan/Chris very soon
+Taken over https://github.com/DevChrisChan/Chris 
