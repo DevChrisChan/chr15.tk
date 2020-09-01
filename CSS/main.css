@@ -39,6 +39,15 @@ p.bigspace {
   margin: 70px 0px;
 }
 
+.alert-banner {
+          overflow: hidden;
+            border-radius: 8px;
+            background-color: #ADD8E6;
+            position: top;
+            top: 0px;
+            text-align: center;
+}
+
 .css-selector {
     background: linear-gradient(270deg, #23a6d5, #23d5ab, #e73c7e, #ee7752);
     background-size: 800% 800%;
