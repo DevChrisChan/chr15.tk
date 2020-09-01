@@ -1,14 +1,9 @@
 body {
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  background-color: #f3f3f3;
-  color: #000000;
+      background: #f3f3f3;
+            font-family: system-ui;
+            color: #000;
 }
 
-h1 {
-  text-allign: center;
-}
 
 a {
   display: inline-block;
