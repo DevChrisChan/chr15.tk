@@ -38,26 +38,33 @@ p.bigspace {
   margin: 70px 0px;
 }
 
-.hero-bg {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	animation: gradient 15s ease infinite;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+.css-selector {
+    background: linear-gradient(270deg, #23a6d5, #23d5ab, #e73c7e, #ee7752);
+    background-size: 800% 800%;
+    -webkit-animation: hero-bg 16s ease infinite;
+    -moz-animation: hero-bg 16s ease infinite;
+    -o-animation: hero-bg 16s ease infinite;
+    animation: hero-bg 16s ease infinite;
 }
-
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+@-webkit-keyframes hero-bg {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@-moz-keyframes hero-bg {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@-o-keyframes hero-bg {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@keyframes hero-bg {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
 }
 
 
