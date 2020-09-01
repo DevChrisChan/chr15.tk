@@ -4,6 +4,7 @@ body {
   justify-content: center;
   background-color: #f3f3f3;
   color: #000000;
+  font-family: system-ui;
 }
 
 h1 {
