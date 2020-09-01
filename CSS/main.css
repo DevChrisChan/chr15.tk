@@ -9,6 +9,7 @@ body {
 
 h1 {
   text-allign: center;
+  font-family: system-ui;
 }
 
 a {
@@ -19,6 +20,7 @@ a {
   text-decoration: none;
   color: #FFFFFF;
   background-color: #f3f3f3;
+  font-family: system-ui;
 }
 
 p.projects {
@@ -29,6 +31,7 @@ p.projects {
   text-decoration: none;
   color: #FFFFFF;
   background-color: #f3f3f3;
+  font-family: system-ui;
 }
 
 p.space {
@@ -72,15 +75,18 @@ p.bigspace {
 @media (prefers-color-scheme: dark) {
   a {
     background-color: #f3f3f3;
-    color: white
+    color: white;
+    font-family: system-ui;
   }
   
   h1, h3 {
-    color: #FFFFFF
+    color: #FFFFFF;
+      font-family: system-ui;
   }
   
   body {
     background-color: #121212;
     color: white;
+    font-family: system-ui;
 }
 
