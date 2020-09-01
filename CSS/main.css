@@ -39,7 +39,7 @@ p.bigspace {
   margin: 70px 0px;
 }
 
-.alert-banner {
+div.alert-banner {
           overflow: hidden;
             border-radius: 8px;
             background-color: #ADD8E6;
