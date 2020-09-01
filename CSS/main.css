@@ -4,12 +4,11 @@ body {
   justify-content: center;
   background-color: #f3f3f3;
   color: #000000;
-  font-family: system-ui;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 h1 {
   text-allign: center;
-  font-family: system-ui;
 }
 
 a {
@@ -20,7 +19,6 @@ a {
   text-decoration: none;
   color: #FFFFFF;
   background-color: #f3f3f3;
-  font-family: system-ui;
 }
 
 p.projects {
@@ -31,7 +29,6 @@ p.projects {
   text-decoration: none;
   color: #FFFFFF;
   background-color: #f3f3f3;
-  font-family: system-ui;
 }
 
 p.space {
@@ -76,17 +73,15 @@ p.bigspace {
   a {
     background-color: #f3f3f3;
     color: white;
-    font-family: system-ui;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   }
   
   h1, h3 {
     color: #FFFFFF;
-      font-family: system-ui;
   }
   
   body {
     background-color: #121212;
     color: white;
-    font-family: system-ui;
 }
 
