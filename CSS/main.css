@@ -1,9 +1,10 @@
 body {
-            background: #f3f3f3;
-            font-family: system-ui;
-            color: #000000;
-            text-allign: center;
-        }
+      text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3f3f3;
+  color: #000000;
+}
 
 
 a {
@@ -42,11 +43,13 @@ div.alert-banner {
             top: 0px;
 }
 
-media (prefers-color-scheme: dark) {
+
+
+@media (prefers-color-scheme: dark) {
   a {
     background-color: #f3f3f3;
     color: white;
-font-family: system-ui;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   }
   
   h1, h3 {
