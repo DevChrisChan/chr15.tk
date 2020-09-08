@@ -2,6 +2,7 @@ body {
             background: #f3f3f3;
             font-family: system-ui;
             color: #000000;
+            text-allign: center;
         }
 
 
@@ -45,7 +46,7 @@ media (prefers-color-scheme: dark) {
   a {
     background-color: #f3f3f3;
     color: white;
-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-family: system-ui;
   }
   
   h1, h3 {
